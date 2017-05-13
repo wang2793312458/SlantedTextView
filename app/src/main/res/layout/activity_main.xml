@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:app="http://schemas.android.com/apk/res-auto"
+   xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   tools:context="com.example.slantedtextview.MainActivity">
+
+   <com.haozhang.lib.SlantedTextView
+      android:layout_width="80dp"
+      android:layout_height="80dp"
+      android:background="@mipmap/ic_launcher"
+      android:gravity="center"
+      app:slantedBackgroundColor="@color/slanted_fb"
+      app:slantedLength="40dp"
+      app:slantedMode="left"
+      app:slantedText="你好吗"
+      app:slantedTextColor="@color/primary_light"
+      app:slantedTextSize="16sp" />
+
+</android.support.constraint.ConstraintLayout>
